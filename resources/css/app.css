@@ -1,0 +1,11 @@
+@import "@fancyapps/ui/dist/carousel/carousel.css";
+@import "@fancyapps/ui/dist/carousel/carousel.thumbs.css";
+@import 'node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import 'node_modules/animate.css/animate.min.css';
+@import 'node_modules/selectpage/selectpage.css';
+@import 'style.css';
+@import 'complexes/complex-card.css';
+@import 'complexes/complex-filter.css';
+@import 'complex_detail/apartment-card.css';
+@import 'complex_detail/description.css';
+@import 'navbar.css';

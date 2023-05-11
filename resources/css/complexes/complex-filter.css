@@ -1,0 +1,51 @@
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #a1a7aa;
+    border-color: #a1a7aa;
+}
+.form-control:focus, .btn:focus {
+    border-color: #ced4da;
+    outline: none;
+    box-shadow: none;
+}
+.btn:focus,
+.btn:active,
+.btn-check:checked+.btn-outline-secondary,
+.btn-check+.btn-outline-secondary{
+    box-shadow: none !important;
+}
+#filter-clear {
+    display: inline-block;
+    float: right;
+    line-height: 2.2rem;
+    cursor: pointer;
+    transition: .3s;
+}
+#filter-clear:hover {
+    opacity: .6;
+    transition: .3s;
+}
+div.sp_pagination ul {
+    width: max-content!important;
+}
+.disabled {
+    opacity: .6;
+    pointer-events: none;
+}
+label.btn {
+    max-width: 90px;
+}
+
+#complexes-content {
+    opacity: 0;
+    transition: 0.5s;
+}
+#complexes-preloader {
+    text-align: center;
+    padding-top: 13rem;
+}
+@media (min-width: 991px) {
+    #complexes-preloader {
+        padding-top: 18rem;
+    }
+}

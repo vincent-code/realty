@@ -1,0 +1,24 @@
+@media (max-width: 991px) {
+    .carousel {
+        max-height: 278px;
+    }
+}
+#detail-content {
+    opacity: 0;
+    transition: 0.5s;
+}
+/*#detail-preloader {
+    text-align: center;
+    padding-top: 7rem;
+}
+#preloader {
+    margin-top: 6rem;
+}*/
+.carousel-h {
+    max-height: 459px
+}
+@media (max-width: 991px) {
+    .carousel-h {
+        max-height: 259px
+    }
+}

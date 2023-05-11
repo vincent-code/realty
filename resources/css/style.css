@@ -1,0 +1,166 @@
+:root {
+    --color-grey-900: #1e1f21;
+    --color-grey-700: #404040;
+    --color-grey-500: #515356;
+    --color-grey-200: #919191;
+    --color-blue-500: #1c7cd6;
+    --color-red: #f02e2e;
+}
+.grey-900 {
+    color: var(--color-grey-900);
+}
+.grey-500 {
+    color: var(--color-grey-500);
+}
+.grey-200 {
+    color: var(--color-grey-200);
+}
+.blue-500 {
+    color: var(--color-blue-500);
+}
+.red {
+    color: var(--color-red);
+}
+
+body {
+    cursor: default;
+}
+a {
+    text-decoration: none!important;
+    color: inherit!important;
+}
+ol {
+    margin: 0!important;
+}
+.bg-01 {
+    background-color: #f2f4f7;
+}
+#map {
+    transition: 0.3s;
+    /*opacity: 0;*/
+}
+.carousel .carousel-item {
+    height: 460px;
+}
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.rounded-04 {
+    border-radius: 0.4rem;
+}
+
+/* SPACING */
+
+.pt-01 {
+    padding-top: 0.2rem;
+}
+.pt-05 {
+    padding-top: 5.3rem;
+}
+.pt-06 {
+    padding-top: 6rem;
+}
+.pt-08 {
+    padding-top: 8rem;
+}
+.mt-02 {
+    margin-top: 2rem;
+}
+.mb-02 {
+    margin-bottom: 2rem;
+}
+
+/* FONT-SIZE */
+
+.fs-01 {
+    font-size: 1.9rem;
+}
+.fs-02 {
+    font-size: 1.3rem;
+}
+
+/* FONT-WEIGHT */
+
+.fw-500 {
+    font-weight: 500;
+}
+.fw-600 {
+    font-weight: 600;
+}
+
+/* SIZING */
+
+.h-01 {
+    height: 3rem;
+}
+.h-02 {
+    height: 4rem;
+}
+.h-05 {
+    height: 28.7rem;
+}
+.w-80 {
+    width: 80%;
+}
+
+
+.border-01 {
+    border: 1px solid #b5b5b5;
+}
+.border-01:hover {
+    border: 1px solid #dddddd;
+}
+.justify-center {
+    justify-content: center;
+}
+.items-center {
+    align-items: center;
+}
+.flex-no-wrap {
+    flex-wrap: nowrap;
+}
+.flex {
+    display: flex;
+}
+.trans {
+    transition: 0.3s;
+}
+
+/* NAV */
+
+.nav-cust {
+    color: #626668!important;
+    transition: 0.3s;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.nav-cust.active {
+    color: #626668!important;
+    border-bottom: 1px solid #1c7cd6;
+    pointer-events: none;
+}
+.nav-cust:hover {
+    color: #909497!important;
+    transition: 0.3s;
+}
+.nav-cust.active:hover {
+    color: #626668!important;
+}
+
+.home-img {
+    background: url(/storage/app/public/img/city.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.img-check {
+    padding-bottom: 3px;
+    height: 22px;
+}
+.f-carousel__dots {
+    display: none;
+}

@@ -1,0 +1,18 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "axios": "^1.1.2",
+        "laravel-vite-plugin": "^0.7.2",
+        "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "@fancyapps/ui": "^5.0.17",
+        "animate.css": "^4.1.1",
+        "bootstrap": "^5.1.3",
+        "selectpage": "^2.20.0"
+    }
+}

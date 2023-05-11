@@ -1,0 +1,17 @@
+.apartment-card {
+    height: 275px;
+    border: 1px solid #b5b5b5;
+}
+.container-img {
+    background-size: cover;
+    height: 170px;
+    overflow: hidden;
+    text-align: center;
+}
+.apartment-img {
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
